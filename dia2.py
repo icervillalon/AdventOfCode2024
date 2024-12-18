@@ -1,5 +1,4 @@
 def validate_report(report: list) -> bool:
-    print(report)
     flag_increasing = True
     # Check if first values are increasing or decreasing
     if int(report[0]) > int(report[1]):
